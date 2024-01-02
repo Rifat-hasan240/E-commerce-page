@@ -1,0 +1,599 @@
+
+
+/*Extra small devices (phones, 600px and down)*/ 
+@media only screen and (max-width: 600px) {
+    .container{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+
+    }
+    /*navber style code for css start*/
+    .nav{
+     background-color: #103246; 
+     padding: 20px;
+     text-align: center; 
+    }  
+    .nav-img{
+     width: 120px;
+     /* border: 2px solid black; */
+     border-radius: 80px; 
+     display: block;
+     margin: auto;
+    } 
+    .nav-link{
+     display: flex;
+     flex-direction: column; 
+     font-size: 1.5rem; 
+     margin: 15px; 
+    } 
+    .nav-link a{
+    background-color:#142A3E ;
+    color: white; 
+    text-decoration: none;
+    margin: 5px;   
+    padding: 15px;
+    border-radius: 10px;
+    }
+    .nav-link a:hover{
+    color:black;
+    text-decoration: underline;
+    }/*navber style code for css end*/
+  
+  /*baner section code for css start*/
+  .baner-section{
+    background-image: url("https://images.unsplash.com/photo-1643282205509-0f8cce95fd5f?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-attachment: cover;
+    margin-top: 0px; 
+    padding: 50px;
+    padding-bottom: 400px;   
+    
+   }
+   .baner-text{
+   text-align: center;
+
+ 
+   }
+   .baner-section h1{
+    color: white;
+    background:#142A3E;
+    border-radius: 5px;
+     }
+   .baner-section h2{
+    background-color: #103246;
+    border-radius: 5px;
+    color: tomato;
+   }  
+   .baner-section button{
+    color:white;
+    background-color: green;
+    border: none;
+    text-align: center;
+    font-size: 1.2rem;
+   }
+  /*baner section code for css end*/
+
+  /* about section code for css start */
+ 
+   .about{
+    text-align: center;
+   }
+   .about h1{
+    text-transform: uppercase;
+   }
+
+  /* about section code for css end */
+
+      
+ /* card code for css style start */
+ .card{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  margin: 5px;
+  max-width: 200px;
+  background-color: gray;
+  box-shadow: 1px 2px 4px solid red;
+  
+}
+/* .card:hover{
+  box-shadow: 2px 3px 4px solid red;
+  
+} */
+.card h2{
+  text-align: center;
+  /* background-color: green; */
+  
+}
+
+.card strong{
+  text-align: center;
+
+}
+
+.card1{
+    width: 200px;
+    height: 200px;
+    opacity: 0.5;
+}
+
+.card1:hover{
+    opacity: 1;
+}
+.card p{
+  text-align: center;
+  background-color: green;
+  font-size: 1.5rem;
+  color: brown;
+}
+/* card code for css style end */
+  
+   /* contact section code for css start */
+
+   .footer-section{
+    background-color: #142A3E;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 100%;
+    justify-content: center;
+  }
+.f2{
+   color: white;
+   text-align: center;
+}
+
+.contact-section{
+  text-align: center;
+  background-color: black;
+  padding: 20px;
+  padding-top: 0;
+  color: white;
+}
+.contact-section p{
+font-size: 1.5rem;
+margin-top: 5px;
+}
+
+.clear{
+  clear: both;
+}
+/* contact section code for css end */
+        
+    }
+
+    /*Small devices (portrait tablets and large phones, 600px and up)*/
+    @media only screen and (min-width: 600px) {
+      .container{}
+    /*navber style code for css start*/  
+    .nav{
+     background-color: #103246; 
+     padding: 20px;
+     text-align: center;  
+    }  
+    .nav-img{
+     width: 120px;
+     /* border: 2px solid black; */
+     border-radius: 80px; 
+     display: block;
+     margin: auto;
+    } 
+    .nav-link{
+     display: flex;
+     flex-direction: column; 
+     font-size: 1.5rem; 
+     margin: 15px; 
+    } 
+    .nav-link a{
+    /* background-color:#142A3E ; */
+    color: white; 
+    text-decoration: none;
+    margin: 5px;   
+    padding: 15px;
+    border-radius: 10px;
+    }
+    .nav-link a:hover{
+    color:tomato;
+    text-decoration: underline;
+    }/*navber style code for css end*/
+
+    
+  /*baner section code for css start*/
+  .baner-section{
+    background-image: url("https://images.unsplash.com/photo-1643282205509-0f8cce95fd5f?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-attachment: cover;
+    margin-top: 0px; 
+    padding: 50px;
+    padding-bottom: 400px;   
+    
+   }
+   .baner-text{
+   text-align: center;
+
+ 
+   }
+   .baner-section h1{
+    color: white;
+    background:#142A3E;
+    border-radius: 5px;
+     }
+   .baner-section h2{
+    background-color: #103246;
+    border-radius: 5px;
+    color: tomato;
+   }  
+   .baner-section button{
+    color:white;
+    background-color: green;
+    border: none;
+    text-align: center;
+    font-size: 1.2rem;
+   }
+  /*baner section code for css end*/
+
+        
+   /* about section code for css start */
+  
+   .about-section{
+    text-align: center;
+   }
+   .about-section h1{
+    text-transform: uppercase;
+   }
+
+   /* about section code for css end */
+
+       
+ /* card code for css style start */
+ .card{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  margin: 5px;
+  max-width: 200px;
+  background-color: gray;
+  box-shadow: 1px 2px 4px solid red;
+  
+}
+/* .card:hover{
+  box-shadow: 2px 3px 4px solid red;
+  
+} */
+.card h2{
+  text-align: center;
+  /* background-color: green; */
+  
+}
+
+.card strong{
+  text-align: center;
+
+}
+
+.card1{
+    width: 200px;
+    height: 200px;
+    opacity: 0.5;
+}
+
+.card1:hover{
+    opacity: 1;
+}
+.card p{
+  text-align: center;
+  background-color: green;
+  font-size: 1.5rem;
+  color: brown;
+}
+/* card code for css style end */
+
+   /* contact section code for css start */
+
+  .footer-section{
+    background-color: #142A3E;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 100%;
+    justify-content: center;
+  }
+.f2{
+   color: white;
+   text-align: center;
+}
+
+.contact-section{
+  text-align: center;
+  background-color: black;
+  padding: 20px;
+  padding-top: 0;
+  color: white;
+}
+.contact-section p{
+font-size: 1.5rem;
+margin-top: 5px;
+}
+.clear{
+  clear: both;
+}
+/* contact section code for css end */
+
+
+    }
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+      .container{}
+    /*navber style code for css start*/  
+    .nav{
+     background-color: #103246; 
+     padding: 20px;
+     /* text-align: center;   */
+    }  
+    .nav-img{
+     width: 120px;
+     /* border: 2px solid black; */
+     border-radius: 80px; 
+     float: left;
+     /* display: block;
+     margin: auto; */
+    } 
+    .nav-link{
+     display: flex;
+     flex-direction: row; 
+     font-size: 1.5rem; 
+    
+     /* margin: 15px;  */
+    } 
+    .nav-link a{
+    /* background-color:#142A3E ; */
+    color: white; 
+    text-decoration: none;
+    /* margin: 5px;   
+    padding: 15px; */
+    /* border-radius: 10px; */
+    }
+    .nav-link a:hover{
+    color:brown;
+    text-decoration: underline;
+    }/*navber style code for css end*/
+    
+    
+ /* card code for css style start */
+ .card{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  margin: 5px;
+  max-width: 200px;
+  background-color: gray;
+  box-shadow: 1px 2px 4px solid red;
+  
+}
+/* .card:hover{
+  box-shadow: 2px 3px 4px solid red;
+  
+} */
+.card h2{
+  text-align: center;
+  /* background-color: green; */
+  
+}
+
+.card strong{
+  text-align: center;
+
+}
+
+.card1{
+    width: 200px;
+    height: 200px;
+    opacity: 0.5;
+}
+
+.card1:hover{
+    opacity: 1;
+}
+.card p{
+  text-align: center;
+  background-color: green;
+  font-size: 1.5rem;
+  color: brown;
+}
+/* card code for css style end */
+
+      
+  /*baner section code for css start*/
+  .baner-section{
+    background-image: url("https://images.unsplash.com/photo-1643282205509-0f8cce95fd5f?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-attachment: cover;
+    margin-top: 0px; 
+    padding: 50px;
+    padding-bottom: 400px;   
+    
+   }
+   .baner-text{
+   text-align: center;
+   }
+   .baner-section h1{
+    color: white;
+     }
+   .baner-section h2{
+    /* background-color: #103246; */
+    /* border-radius: 10px; */
+    color: tomato;
+   }  
+   .baner-section button{
+    color:red;
+    background-color: green;
+    border: none;
+    font-size: 1.2rem;
+   }
+   
+.contact-section{
+  text-align: center;
+  background-color: black;
+  padding: 20px;
+  padding-top: 0;
+  color: white;
+}
+.contact-section p{
+font-size: 1.5rem;
+margin-top: 5px;
+}
+.clear{
+  clear: both;
+}
+  /*baner section code for css end*/
+        
+
+    }
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 992px) {
+      .container{}
+    /*navber style code for css start*/  
+    .nav{
+     background-color: #103246; 
+     padding: 110px;
+     padding-top: 0px;
+     text-align: center; 
+    }  
+    .nav-img{
+     width: 120px;
+     margin-top: 5px;
+     /* border: 2px solid black; */
+     border-radius: 80px; 
+     /* display: block;
+     margin: auto; */
+    } 
+    .nav-link{
+     display: flex;
+     flex-direction: row;
+     float: right; 
+     font-size: 1.5rem; 
+     /* margin: 15px;  */
+    } 
+    .nav-link a{
+    /* background-color:#142A3E ; */
+    color: white; 
+    text-decoration: none;
+    /* margin: 5px;    */
+    /* padding: 15px; */
+    /* border-radius: 10px; */
+    }
+    .nav-link a:hover{
+    color:crimson;
+    text-decoration: underline;
+    }/*navber style code for css end*/
+    
+      /*baner section code for css start*/
+  .baner-section{
+    background-image: url("https://images.unsplash.com/photo-1643282205509-0f8cce95fd5f?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-attachment: cover;
+    margin-top: 0px; 
+    padding: 50px;
+    padding-bottom: 400px;   
+    
+   }
+   .baner-text{
+    text-align: center;
+   }
+   .baner-section h1{
+    color: white;
+     }
+   .baner-section h2{
+    color: tomato;
+   } 
+   .baner-section button{
+    background-color: #103246;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5rem;
+   }
+  /*baner section code for css end*/
+
+ /* card code for css style start */
+ .card{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  margin: 5px;
+  max-width: 200px;
+  background-color: gray;
+  box-shadow: 1px 2px 4px solid red;
+  
+}
+/* .card:hover{
+  box-shadow: 2px 3px 4px solid red;
+  
+} */
+.card h2{
+  text-align: center;
+  /* background-color: green; */
+  
+}
+
+.card strong{
+  text-align: center;
+
+}
+
+.card1{
+    width: 200px;
+    height: 200px;
+    opacity: 0.5;
+}
+
+.card1:hover{
+    opacity: 1;
+}
+.card p{
+  text-align: center;
+  background-color: green;
+  font-size: 1.5rem;
+  color: brown;
+}
+/* card code for css style end */
+
+  
+
+  /* contact section code for css start */
+
+  .footer-section{
+    background-color: #142A3E;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+   
+  }
+.f2{
+   float: right;
+   padding-right: 150px;
+   color: white;
+}
+
+.contact-section{
+  text-align: center;
+  background-color: black;
+  padding: 20px;
+  padding-top: 0;
+  color: white;
+}
+.contact-section p{
+font-size: 1.5rem;
+margin-top: 5px;
+}
+
+.clear{
+  clear: both;
+}
+
+/* contact section code for css end */
+ }
