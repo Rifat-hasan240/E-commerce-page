@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is ecomerce page">
+    <!--font awesome cdn version(6.5.1)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--google font cdn-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Italianno&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <!--My style sheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--code start-->
+<div id="container">
+    <!-- navber section start -->
+     <nav id="nav-header">
+     <!-- <i
+          class="fa fa-6x fa-coffee"
+          aria-hidden="true"
+          style="color: #f85606"
+        ></i> -->
+        <!-- <i id="nav-header" class="fa-solid fa-6x fa-apple-whole" style="color: #f85606;"></i> -->
+       <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Menu.html">Menu</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Login.html">Login</a></li>
+        <li><a href="Sign-up.html">sing-up</a></li>
+       </ul>
+     </nav>
+    <!-- navber section end -->
+    <!-- main section start -->
+      <!-- content section start -->
+      <div id="content-header">
+        <!-- Slide section start -->
+        <div id="slide-section">
+          <section class="Catagores-section">
+            <h2>Catagores</h2>
+            <ul>
+              <li>
+                <label for="Computer">
+                  <input
+                    type="checkbox"
+                    name="Computer"
+                    id="Computer"
+                    value="Computer"
+                  />
+                  Computer
+                </label>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <label for="Laptop">
+                  <input
+                    type="checkbox"
+                    name="Laptop"
+                    id="Laptop"
+                    value="Laptop"
+                  />
+                  Laptop
+                </label>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <label for="Tablets">
+                  <input
+                    type="checkbox"
+                    name="Tablets"
+                    id="Tablets"
+                    value="Tablets"
+                  />
+                  Tablets
+                </label>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <label for="Phone">
+                  <input
+                    type="checkbox"
+                    name="Phone"
+                    id="Phone"
+                    value="Phone"
+                  />
+                  Phone
+                </label>
+              </li>
+            </ul>
+          </section>
+          <!-- Price-section start -->
+          <section class="Price-section">
+            <h2>Price Range</h2>
+            <ul>
+              <li>
+                <label for="Computer">
+                  <input
+                    type="radio"
+                    name="Computer"
+                    id="Computer"
+                    value="Computer"
+                  />
+                  20$
+                </label>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <label for="Laptop">
+                  <input
+                    type="radio"
+                    name="Laptop"
+                    id="Laptop"
+                    value="Laptop"
+                  />
+                  25$
+                </label>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <label for="Tablets">
+                  <input
+                    type="radio"
+                    name="Tablets"
+                    id="Tablets"
+                    value="Tablets"
+                  />
+                  15$
+                </label>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <label for="Phone">
+                  <input
+                    type="radio"
+                    name="Phone"
+                    id="Phone"
+                    value="101/150"
+                  />
+                  10$
+                </label>
+              </li>
+            </ul>
+          </section>
+          <!-- Price-section end -->
+          <!-- shipping options start -->
+          <section class="shipping-option">
+            <h2>Shipping Options</h2>
+            <ul>
+              <li>
+                <label for="free">
+                  <input type="radio" name="free" id="free" value="free" />
+                  Free Shiping
+                </label>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <label for="paid">
+                  <input type="radio" name="paid" id="paid" value="paid" />
+                  Paid Shiping
+                </label>
+              </li>
+            </ul>
+          </section>
+          <!-- shipping options end -->
+          <!-- Slide section end -->
+          <!-- aside section start -->
+        </div>
+
+        <section id="section-aside">
+          <div id="aside-header">
+            <label for="select" class="aside-font">Select Brand</label>
+            <select name="select" id="select">
+              <option value="DEll" class="aside-font">DELL Brand</option>
+              <option value="Apollo" class="aside-font">Apple Brand</option>
+              <option value="Samsong" class="aside-font">
+                Samsung Brand
+              </option>
+              <option value="Hp" class="aside-font active">HP Brand</option>
+              <option value="LG" class="aside-font">LG Brand</option>
+              <option value="SONY" class="aside-font">Sony Brand</option>
+            </select>
+          </div>
+          <div class="clear"></div>
+          <div id="search-bar">
+            <input
+              type="text"
+              name="search-bar"
+              id="search"
+              placeholder="Search Item"
+            />
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+        </section>
+        <!-- aside section end -->
+      </div>
+      <!-- product section start -->
+      <div id="card-section">
+        <!-- Apple product-1 start -->
+        <div class="card-product common-card">
+          <div class="bage">
+            <span>10 in stock</span>
+            <hr class="hr-design" />
+            <span>Code_105</span>
+          </div>
+          <img
+            src="Apple-product-1.jpg"
+            alt="apple-product-1"
+            class="product-img"
+          />
+          <div class="product-body">
+            <h3>Apple or smasung</h3>
+            <h3>
+              <p>
+                <span class="dot red"></span>
+                <span class="dot green"></span>
+                <span class="dot black"></span>
+              </p>
+            </h3>
+            <p class="product-description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Molestiae, nobis...
+              <a href="Menu.html" class="learning-more">Learnin more</a>
+            </p>
+            <p class="product-price">$20</p>
+            <p class="product-rating">Rating 5.5/5</p>
+            <button class="product-btn">Add to Card</button>
+          </div>
+        </div>
+         <!-- Apple product-1 end -->
+         <!-- Apple product-2 start -->
+        <div class="card-product common-card">
+          <div class="bage">
+            <span>15 in stock</span>
+            <hr class="hr-design" />
+            <span>Code_107</span>
+          </div>
+          <img
+            src="Apple-product-2.jpg"
+            alt="Apple-product-2"
+            class="product-img"
+          />
+          <div class="product-body">
+            <h3>Apple or smasung</h3>
+            <h3>
+              <p>
+                <span class="dot red"></span>
+                <span class="dot green"></span>
+                <span class="dot black"></span>
+              </p>
+            </h3>
+            <p class="product-description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Molestiae, nobis...
+              <a href="Menu.html" class="learning-more">Learnin more</a>
+            </p>
+            <p class="product-price">$8</p>
+            <p class="product-rating">Rating 6.5/5</p>
+            <button class="product-btn">Add to Card</button>
+          </div>
+        </div>
+        <!-- Apple product-2 end -->
+        <!-- Apple product-3 start -->
+        <div class="card-product common-card">
+          <div class="bage">
+            <span>8 in stock</span>
+            <hr class="hr-design" />
+            <span>Code_120</span>
+          </div>
+          <img
+            src="apple-product-3.jpg"
+            alt="apple-product-3"
+            class="product-img"
+          />
+          <div class="product-body">
+            <h3>Apple or smasung</h3>
+            <h3>
+              <p>
+                <span class="dot red"></span>
+                <span class="dot green"></span>
+                <span class="dot black"></span>
+              </p>
+            </h3>
+            <p class="product-description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Molestiae, nobis...
+              <a href="Menu.html" class="learning-more">Learnin more</a>
+            </p>
+            <p class="product-price">$25</p>
+            <p class="product-rating">Rating 6.5/7</p>
+            <button class="product-btn">Add to Card</button>
+          </div>
+        </div>
+        <!-- Apple product-3 end -->
+        <!-- samsung product 1 start -->
+        <div class="card-product common-card">
+          <div class="bage">
+            <span>8 in stock</span>
+            <hr class="hr-design" />
+            <span>Code_120</span>
+          </div>
+          <img
+            src="samsung-product-1.jpg"
+            alt="samsung-product-1"
+            class="product-img"
+          />
+          <div class="product-body">
+            <h3>Apple or smasung</h3>
+            <h3>
+              <p>
+                <span class="dot red"></span>
+                <span class="dot green"></span>
+                <span class="dot black"></span>
+              </p>
+            </h3>
+            <p class="product-description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Molestiae, nobis...
+              <a href="Menu.html" class="learning-more">Learnin more</a>
+            </p>
+            <p class="product-price">$30</p>
+            <p class="product-rating">Rating 8.5/10</p>
+            <button type="submit" class="product-btn">Add to Card</button>
+          </div>
+        </div>
+        <!-- samsung product 1 end -->
+         <!-- Menu product 1 start -->
+         <div class="card-product common-card">
+            <div class="bage">
+              <span>12 in stock</span>
+              <hr class="hr-design" />
+              <span>Code_509</span>
+            </div>
+            <img
+              src="Menu-img/manu-product-1.jpg"
+              alt="Menu-product-1"
+              class="product-img"
+            />
+            <div class="product-body">
+              <h3>Apple or smasung</h3>
+              <h3>
+                <p>
+                  <span class="dot red"></span>
+                  <span class="dot green"></span>
+                  <span class="dot black"></span>
+                </p>
+              </h3>
+              <p class="product-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Molestiae, nobis...
+                <a href="Menu.html" class="learning-more">Learnin more</a>
+              </p>
+              <p class="product-price">$32</p>
+              <p class="product-rating">Rating 10.2/10.8</p>
+              <button type="submit" class="product-btn">Add to Card</button>
+            </div>
+          </div>
+          <!-- menu product 1 end -->
+           <!-- Menu product 2 start -->
+         <div class="card-product common-card">
+            <div class="bage">
+              <span>5 in stock</span>
+              <hr class="hr-design" />
+              <span>Code_210</span>
+            </div>
+            <img
+              src="Menu-img/manu-product-2.jpg"
+              alt="Menu-product-2"
+              class="product-img"
+            />
+            <div class="product-body">
+              <h3>Apple or smasung</h3>
+              <h3>
+                <p>
+                  <span class="dot red"></span>
+                  <span class="dot green"></span>
+                  <span class="dot black"></span>
+                </p>
+              </h3>
+              <p class="product-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Molestiae, nobis...
+                <a href="Menu.html" class="learning-more">Learnin more</a>
+              </p>
+              <p class="product-price">$40</p>
+              <p class="product-rating">Rating 1.52/5.8</p>
+              <button type="submit" class="product-btn">Add to Card</button>
+            </div>
+          </div> 
+          <!-- menu product 2 end -->
+           <!-- Menu product 3 start -->
+         <div class="card-product common-card">
+            <div class="bage">
+              <span>10 in stock</span>
+              <hr class="hr-design" />
+              <span>Code_220</span>
+            </div>
+            <img
+              src="Menu-img/manu-product-3.jpg"
+              alt="Menu-product-3"
+              class="product-img"
+            />
+            <div class="product-body">
+              <h3>Apple or smasung</h3>
+              <h3>
+                <p>
+                  <span class="dot red"></span>
+                  <span class="dot green"></span>
+                  <span class="dot black"></span>
+                </p>
+              </h3>
+              <p class="product-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Molestiae, nobis...
+                <a href="Menu.html" class="learning-more">Learnin more</a>
+              </p>
+              <p class="product-price">$30</p>
+              <p class="product-rating">Rating 10.5/10.7</p>
+              <button type="submit" class="product-btn">Add to Card</button>
+            </div>
+          </div>
+          <!-- menu product 3 end -->
+           <!-- Menu product 4start -->
+         <div class="card-product common-card">
+            <div class="bage">
+              <span>12in stock</span>
+              <hr class="hr-design" />
+              <span>Code_499</span>
+            </div>
+            <img
+              src="Menu-img/manu-product-4.jpg"
+              alt="Menu-product-4"
+              class="product-img"
+            />
+            <div class="product-body">
+              <h3>Apple or smasung</h3>
+              <h3>
+                <p>
+                  <span class="dot red"></span>
+                  <span class="dot green"></span>
+                  <span class="dot black"></span>
+                </p>
+              </h3>
+              <p class="product-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Molestiae, nobis...
+                <a href="Menu.html" class="learning-more">Learnin more</a>
+              </p>
+              <p class="product-price">$33</p>
+              <p class="product-rating">Rating 20.5/20.7</p>
+              <button type="submit" class="product-btn">Add to Card</button>
+            </div>
+          </div>
+          <!-- menu product 4 end -->
+          <!-- Menu product 5 start -->
+          <div class="card-product common-card">
+            <div class="bage">
+              <span>4 in stock</span>
+              <hr class="hr-design" />
+              <span>Code_409</span>
+            </div>
+            <img
+              src="Menu-img/manu-product-5.jpg"
+              alt="Menu-product-5"
+              class="product-img"
+            />
+            <div class="product-body">
+              <h3>Apple or smasung</h3>
+              <h3>
+                <p>
+                  <span class="dot red"></span>
+                  <span class="dot green"></span>
+                  <span class="dot black"></span>
+                </p>
+              </h3>
+              <p class="product-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Molestiae, nobis...
+                <a href="Menu.html" class="learning-more">Learnin more</a>
+              </p>
+              <p class="product-price">$90</p>
+              <p class="product-rating">Rating 10.2/10.7</p>
+              <button type="submit" class="product-btn">Add to Card</button>
+            </div>
+          </div>
+          <!-- menu product 5 end -->
+         
+           <!-- Menu product 6 start -->
+         <div class="card-product common-card">
+            <div class="bage">
+              <span>6 in stock</span>
+              <hr class="hr-design" />
+              <span>Code_309</span>
+            </div>
+            <img
+              src="Menu-img/manu-product-6.jpg"
+              alt="Menu-product-6"
+              class="product-img"
+            />
+            <div class="product-body">
+              <h3>Apple or smasung</h3>
+              <h3>
+                <p>
+                  <span class="dot red"></span>
+                  <span class="dot green"></span>
+                  <span class="dot black"></span>
+                </p>
+              </h3>
+              <p class="product-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Molestiae, nobis...
+                <a href="Menu.html" class="learning-more">Learnin more</a>
+              </p>
+              <p class="product-price">$50</p>
+              <p class="product-rating">Rating 10.5/10.9</p>
+              <button type="submit" class="product-btn">Add to Card</button>
+            </div>
+          </div>
+          <!-- menu product 6 end -->
+           <!-- Menu product 7 start -->
+         <div class="card-product common-card">
+            <div class="bage">
+              <span>7 in stock</span>
+              <hr class="hr-design" />
+              <span>Code_709</span>
+            </div>
+            <img
+              src="Menu-img/manu-product-7.jpg"
+              alt="Menu-product-7"
+              class="product-img"
+            />
+            <div class="product-body">
+              <h3>Apple or smasung</h3>
+              <h3>
+                <p>
+                  <span class="dot red"></span>
+                  <span class="dot green"></span>
+                  <span class="dot black"></span>
+                </p>
+              </h3>
+              <p class="product-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Molestiae, nobis...
+                <a href="Menu.html" class="learning-more">Learnin more</a>
+              </p>
+              <p class="product-price">$40</p>
+              <p class="product-rating">Rating 10.5/10.9</p>
+              <button type="submit" class="product-btn">Add to Card</button>
+            </div>
+          </div>
+          <!-- menu product 7 end -->
+           <!-- Menu product 8 start -->
+         <div class="card-product common-card">
+            <div class="bage">
+              <span>8 in stock</span>
+              <hr class="hr-design" />
+              <span>Code_408</span>
+            </div>
+            <img
+              src="Menu-img/manu-product-8.jpg"
+              alt="Menu-product-8"
+              class="product-img"
+            />
+            <div class="product-body">
+              <h3>Apple or smasung</h3>
+              <h3>
+                <p>
+                  <span class="dot red"></span>
+                  <span class="dot green"></span>
+                  <span class="dot black"></span>
+                </p>
+              </h3>
+              <p class="product-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Molestiae, nobis...
+                <a href="Menu.html" class="learning-more">Learnin more</a>
+              </p>
+              <p class="product-price">$15</p>
+              <p class="product-rating">Rating 10.5/10.6</p>
+              <button type="submit" class="product-btn">Add to Card</button>
+            </div>
+          </div>
+          <!-- menu product 8 end -->
+         <!-- Menu product 9 start -->
+         <div class="card-product common-card">
+            <div class="bage">
+              <span>9 in stock</span>
+              <hr class="hr-design" />
+              <span>Code_999</span>
+            </div>
+            <img
+              src="Menu-img/manu-product-9.jpg"
+              alt="Menu-product-9"
+              class="product-img"
+            />
+            <div class="product-body">
+              <h3>Apple or smasung</h3>
+              <h3>
+                <p>
+                  <span class="dot red"></span>
+                  <span class="dot green"></span>
+                  <span class="dot black"></span>
+                </p>
+              </h3>
+              <p class="product-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Molestiae, nobis...
+                <a href="Menu.html" class="learning-more">Learnin more</a>
+              </p>
+              <p class="product-price">$12</p>
+              <p class="product-rating">Rating 10./10.7</p>
+              <button type="submit" class="product-btn">Add to Card</button>
+            </div>
+          </div>
+          <!-- menu product 9 end -->
+           <!-- Menu product 10 start -->
+         <div class="card-product common-card">
+            <div class="bage">
+              <span>10 in stock</span>
+              <hr class="hr-design" />
+              <span>Code_101</span>
+            </div>
+            <img
+              src="Menu-img/manu-product-10.jpg"
+              alt="Menu-product-10"
+              class="product-img"
+            />
+            <div class="product-body">
+              <h3>Apple or smasung</h3>
+              <h3>
+                <p>
+                  <span class="dot red"></span>
+                  <span class="dot green"></span>
+                  <span class="dot black"></span>
+                </p>
+              </h3>
+              <p class="product-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Molestiae, nobis...
+                <a href="Menu.html" class="learning-more">Learnin more</a>
+              </p>
+              <p class="product-price">$16</p>
+              <p class="product-rating">Rating 7.5/10.7</p>
+              <button type="submit" class="product-btn">Add to Card</button>
+            </div>
+          </div>
+          <!-- menu product 10 end -->
+             <!-- Menu product 11 start -->
+         <div class="card-product common-card">
+            <div class="bage">
+              <span>11 in stock</span>
+              <hr class="hr-design" />
+              <span>Code_903</span>
+            </div>
+            <img
+              src="Menu-img/manu-product-11.jpg"
+              alt="Menu-product-11"
+              class="product-img"
+            />
+            <div class="product-body">
+              <h3>Apple or smasung</h3>
+              <h3>
+                <p>
+                  <span class="dot red"></span>
+                  <span class="dot green"></span>
+                  <span class="dot black"></span>
+                </p>
+              </h3>
+              <p class="product-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Molestiae, nobis...
+                <a href="Menu.html" class="learning-more">Learnin more</a>
+              </p>
+              <p class="product-price">$20</p>
+              <p class="product-rating">Rating 8.5/10.7</p>
+              <button type="submit" class="product-btn">Add to Card</button>
+            </div>
+          </div>
+          <!-- menu product 11 end -->
+            <!-- Menu product 12 start -->
+         <div class="card-product common-card">
+            <div class="bage">
+              <span>12 in stock</span>
+              <hr class="hr-design" />
+              <span>Code_904</span>
+            </div>
+            <img
+              src="Menu-img/manu-product-12.jpg"
+              alt="Menu-product-12"
+              class="product-img"
+            />
+            <div class="product-body">
+              <h3>Apple or smasung</h3>
+              <h3>
+                <p>
+                  <span class="dot red"></span>
+                  <span class="dot green"></span>
+                  <span class="dot black"></span>
+                </p>
+              </h3>
+              <p class="product-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Molestiae, nobis...
+                <a href="Menu.html" class="learning-more">Learnin more</a>
+              </p>
+              <p class="product-price">$21</p>
+              <p class="product-rating">Rating 6.5/10.7</p>
+              <button type="submit" class="product-btn">Add to Card</button>
+            </div>
+          </div>
+          <!-- menu product 10 end -->
+      </div>
+      <!-- product section end -->
+
+      <!-- content section end -->
+    <!-- main section end -->
+     <!-- pagination section start -->
+     <div id="pagination-section">
+      <div id="pagination">
+        <a href="#" class="pagination-item"><i class="fa-solid fa-less-than"></i></a>
+        <a href="index.html" class="pagination-item">1</a>
+        <a href="Menu.html" class="pagination-item">2</a>
+        <a href="About.html" class="pagination-item">3</a>
+        <a href="Login.html" class="pagination-item">...</a>
+        <a href="Sign-up.html" class="pagination-item">10</a>
+        <a href="#" class="pagination-item"><i class="fa-solid fa-greater-than"></i></a>
+      </div>
+     </div>
+  <!-- pagination section end -->
+    <!-- footer section start -->
+    <div id="footer-header">
+        <div class="footer-item-1 footer-common">
+            <h2>contact</h2>
+           <a href=" Web029050@gmail.com" class="footer-mail"> Web029050@gmail.com</a>
+        </div>
+        <div class="footer-item-2 footer-common">
+           <h2>Navigation</h2>
+           <p>About</p>
+           <p>Servics</p>
+           <p>Menu</p>
+           <p>Chef</p>
+        </div>
+        <div class="footer-item-3 footer-common">
+            <h2>Resource</h2>
+            <p><a href="https://main--jade-mooncake-d09ab8.netlify.app/">Blog</a></p>
+            <p>News Update</p>
+            <p>Team</p>
+            <p>Join us</p>
+         </div>
+         <div class="footer-item-4 footer-common">
+            <h2>Stay up to Date</h2>
+          <p>See how you can make a diference in you</p> <br>
+          <label for="Email"></label>
+          <input type="email"name="email" id="email" placeholder="Contact@gmail.com" class="footer-input" required>
+         </div>
+    </div> 
+    <!-- footer section end -->
+</div>
+<!--code end-->
+</body>
+</html>
